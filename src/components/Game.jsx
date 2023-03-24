@@ -24,7 +24,7 @@ const Game = () => {
   };
 
   const handleWinner = () => {
-    if (playerChoice === cpuChoice) {
+    if (((playerChoice) => playerChoice) === ((cpuChoice) => cpuChoice)) {
       return (
         setWinner("Empate"), setCounter({ ...counter, draw: counter.draw + 1 })
       );
